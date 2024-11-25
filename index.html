@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <style>
+        /* General reset for padding and margin */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin: 0 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Page Title */
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        /* General Content Styling */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .container p {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 280px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        /* Hobbies Section Styling */
+        .hobbies {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9f5f5;
+            border-radius: 8px;
+        }
+
+        .hobbies h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .hobbies li {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .hobbies .description {
+            font-size: 1rem;
+            color: #666;
+            text-align: center;
+            margin-top: 5px;
+            padding: 0 20px;
+        }
+
+        /* New image under hobbies */
+        .hobbies img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        video {
+            width: 70%; /* Reduce to 70% for 30% smaller size */
+            max-width: 504px; /* Adjust max width */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="project.html">Project</a>
+        <a href="game.html">Game</a>
+        <a href="discovery.html">Discovery</a>
+        <a href="contactme.html">Contact</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        
+        <!-- Image Display -->
+        <div class="image-container">
+            <img src="images/1G4A4137.jpg" width="200" height="200" alt="Personal Image"/>
+        </div>
+
+        <p>This is my personal website about myself and my achievements.</p>
+
+        <!-- Hobbies Section -->
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>
+                    <strong>The Outdoors</strong>
+                    <p class="description">I enjoy anything outdoors—exercising, hiking, sailing, and doing activities with friends.</p>
+                </li>
+                <li>
+                    <strong>Video Games</strong>
+                    <p class="description">I enjoy playing video games such as FPS with friends and RPGs by myself. My favorite game right now is Black Ops 6.</p>
+                </li>
+            </ul>
+
+            <!-- Image under Hobbies -->
+            <div class="image-container">
+                <img src="images/IMG_4985 copy.JPG" alt="Outdoor Activity">
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+        <h2>My Video</h2>
+        <video controls>
+            <source src="Videos/mevid.mp4" type="video/mp4">
+            Your browser does not support the video tag. <a href="myvideo.mp4">Download the video</a> instead.
+        </video>
+    </div>
+</body>
+</html>
